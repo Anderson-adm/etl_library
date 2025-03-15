@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 import os
 import sys
-sys.path.insert(0, os.path.abspath("../etl_library"))  # Aponta para a lib
+sys.path.insert(0, os.path.abspath("../"))  # Aponta para a lib
 
 project = 'etl_library'
 copyright = '2025, Anderson'
